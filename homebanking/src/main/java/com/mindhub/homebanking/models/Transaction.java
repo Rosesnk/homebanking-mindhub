@@ -10,8 +10,8 @@ import java.time.LocalDateTime;
 public class Transaction {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "name")
-    @GenericGenerator(name="name", strategy="native")
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name="native", strategy="native")
     private Long id;
 
     private TransactionType type;

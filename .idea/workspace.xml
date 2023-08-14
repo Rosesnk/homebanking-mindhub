@@ -104,7 +104,6 @@
   <component name="RunManager" selected="Gradle.homebanking [bootRun]">
     <configuration name="HomebankingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mindhub.homebanking.HomebankingApplication" />
-      <module name="homebanking.homebanking.main~1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mindhub.homebanking.*" />
@@ -181,6 +180,12 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.HomebankingApplication" />
+      <item itemvalue="Gradle.homebanking [bootRun]" />
+      <item itemvalue="Gradle.homebanking [clean]" />
+      <item itemvalue="Gradle.homebanking [test]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.homebanking [bootRun]" />

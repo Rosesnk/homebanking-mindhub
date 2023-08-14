@@ -12,8 +12,8 @@ import java.util.Set;
 public class Account {
 
       @Id
-      @GeneratedValue(strategy = GenerationType.AUTO, generator = "name")
-      @GenericGenerator(name="name", strategy="native")
+      @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+      @GenericGenerator(name="native", strategy="native")
       private Long id;
 
       private String number;
