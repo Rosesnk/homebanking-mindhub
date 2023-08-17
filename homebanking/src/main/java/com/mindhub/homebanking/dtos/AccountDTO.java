@@ -57,7 +57,7 @@ public class AccountDTO {
         this.balance = balance;
     }*/
 
-    public Set<TransactionDTO> getTransaction() {
+    public Set<TransactionDTO> getTransactions() {
         return transactions.stream().map(transaction -> new TransactionDTO(transaction)).collect(toSet());
     }
 }

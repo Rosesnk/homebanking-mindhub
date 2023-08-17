@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="275504db-5f5e-42bc-9ab0-0d8cc69d88f7" name="Changes" comment="" />
+    <list default="true" id="275504db-5f5e-42bc-9ab0-0d8cc69d88f7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Client.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,31 +39,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="homebanking" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homebanking" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homebanking" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homebanking" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homebanking" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -80,7 +64,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2TagoJ6EUmPpG638xWaWGflVudD" />
   <component name="ProjectLevelVcsManager">
@@ -94,8 +78,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/win_11/Desktop/Cursos/Programacion/Mindhub/JAVA/Task/homebanking",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
