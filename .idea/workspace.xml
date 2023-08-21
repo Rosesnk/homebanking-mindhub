@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="275504db-5f5e-42bc-9ab0-0d8cc69d88f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Loan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

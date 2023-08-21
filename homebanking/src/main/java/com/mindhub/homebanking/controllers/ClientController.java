@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
+import static java.util.stream.Collectors.toList;
 
 @RestController
 @RequestMapping("/api")
@@ -23,27 +23,25 @@ public class ClientController {
     private ClientRepository clientRepository;
 
     @RequestMapping("/clients")
-    public List<ClientDTO> getClients() {
-        return clientRepository.findAll().stream().map(ClientDTO::new).collect(Collectors.toList());
-
+    public List<ClientDTO> getClients(){
+        return clientRepository.findAll().stream().map(client -> new ClientDTO(client)).collect(toList());
     }
-
     @RequestMapping("/clients/current")
     public ClientDTO getCurrent(Authentication authentication) {
-        return clientRepository.findByEmail(authentication.getName());
+        return clientRepository.findByEmail(authentication.name());
+    }
 
     @RequestMapping("/clients/{id}")
     public ClientDTO getClient(@PathVariable Long id){
-        return clientRepository.findById(id).map(ClientDTO::new).orElse(null);
+        return clientRepository.findById(id).map(client -> new ClientDTO(client)).orElse(null);
     }
+
     @Autowired
     private PasswordEncoder passwordEncoder;
     @RequestMapping(path = "/clients", method = RequestMethod.POST)
     public ResponseEntity<Object> register(
-            @RequestParam String name,
-            @RequestParam String lastname,
-            @RequestParam String email,
-            @RequestParam String password) {
+            @RequestParam String name, @RequestParam String lastname,
+            @RequestParam String email, @RequestParam String password) {
 
         if (name.isEmpty() || lastname.isEmpty() || email.isEmpty() || password.isEmpty()) {
             return new ResponseEntity<>("Missing data", HttpStatus.FORBIDDEN);
@@ -55,6 +53,7 @@ public class ClientController {
         return new ResponseEntity<>(HttpStatus.CREATED);
 
     }
-}
 
+
+}
 
