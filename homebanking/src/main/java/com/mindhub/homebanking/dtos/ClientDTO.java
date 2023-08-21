@@ -1,5 +1,6 @@
 package com.mindhub.homebanking.dtos;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.mindhub.homebanking.models.Card;
 import com.mindhub.homebanking.models.Client;
 import com.mindhub.homebanking.models.ClientLoan;
@@ -17,6 +18,8 @@ public class ClientDTO {
     private Set<AccountDTO> accounts;
     private Set<ClientLoan>clientLoans;
     private Set<Card> cards;
+    private String password;
+
 
     public ClientDTO(){
 
@@ -30,6 +33,7 @@ public class ClientDTO {
         this.accounts = client.getAccounts().stream().map(AccountDTO::new).collect(toSet());
         this.clientLoans = client.getClientLoans();
         this.cards = client.getCards();
+        this.password = client.getPassword();
     }
 
     public long getId() {
@@ -64,6 +68,10 @@ public class ClientDTO {
         this.email = email;
     } */
 
+    @JsonIgnore
+    public String getPassword() {
+        return password;
+    }
     public Set<AccountDTO> getAccounts() {
         return accounts;
     }

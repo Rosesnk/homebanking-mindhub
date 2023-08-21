@@ -69,7 +69,6 @@ public class Transaction {
         this.description = description;
     }
 
-    @JsonIgnore
     public Account getAccount() {
         return account;
     }

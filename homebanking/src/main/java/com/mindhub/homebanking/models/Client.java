@@ -2,6 +2,7 @@ package com.mindhub.homebanking.models;
 
 import org.hibernate.annotations.GenericGenerator;
 
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.List;
@@ -19,20 +20,22 @@ public class Client {
     private String name;
     private String lastname;
     private String email;
+    private String password;
 
     @OneToMany(mappedBy= "client", fetch = FetchType.EAGER)
     private Set<Account> accounts = new HashSet<>();
     @OneToMany(mappedBy = "client", fetch = FetchType.EAGER)
-    Set<ClientLoan> clientLoans = new HashSet<>();
+    private Set<ClientLoan> clientLoans = new HashSet<>();
     @OneToMany(mappedBy = "client", fetch = FetchType.EAGER)
-    Set<Card> cards = new HashSet<>();
+    private Set<Card> cards = new HashSet<>();
 
     public Client(){}
 
-    public Client( String name, String lastname, String email){
+    public Client( String name, String lastname, String email, String password){
         this.name = name;
         this.lastname = lastname;
         this.email = email;
+        this.password = password;
     }
 
      public long getId() {
@@ -64,6 +67,14 @@ public class Client {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public Set <Account> getAccounts(){

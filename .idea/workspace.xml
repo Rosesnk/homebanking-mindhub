@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="275504db-5f5e-42bc-9ab0-0d8cc69d88f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/HomebankingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/repositories/ClientRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +77,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/win_11/Desktop/Cursos/Programacion/Mindhub/JAVA/Task/homebanking",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/win_11/Desktop/Cursos/Programacion/Mindhub/JAVA/Task/homebanking&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.homebanking [bootRun]">
     <configuration name="HomebankingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mindhub.homebanking.HomebankingApplication" />
