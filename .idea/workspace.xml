@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="275504db-5f5e-42bc-9ab0-0d8cc69d88f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/controllers/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/dtos/ClientDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/homebanking/src/main/java/com/mindhub/homebanking/models/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -83,6 +81,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mindhub.homebanking.configurations" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.homebanking [bootRun]">
     <configuration name="HomebankingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mindhub.homebanking.HomebankingApplication" />
